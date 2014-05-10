@@ -1,1 +1,24 @@
-<h1 class="title">許願池</h1>
+<h1 class="title">許願池 - 想上什麼自己決定</h1>
+<div id="form-info">
+  <form id="input-form">
+    <label>姓名：</label>
+    <input class="name"/>
+    <label>想學習的課程：</label>
+    <input class="lession"/>
+    <label>課程描述：</label>
+    <input class="description"/>
+    <input class="btn btn-success" type="submit" value="送出" />
+  </form>
+</div>
+<div id="pool-list">
+  <ul>
+    <li ng-repeat="list in lists" class="list">
+      <ul>
+        <li>提案人：{{list.username}}</li>
+        <li>題目：{{list.title}}</li>
+        <li>描述：{{list.description}}</li>
+        <li>認同數：{{list.vote}}</li> 
+      </ul>
+    </li>
+  </ul>
+</div>

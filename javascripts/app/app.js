@@ -6,7 +6,7 @@ myApp.config(['$routeProvider', function ($routeProvider) {
           controller:  'MainCtrl',
         }).when('/pool', {
           templateUrl: 'views/pool.html',
-          controller: 'MainCtrl'
+          controller: 'PoolCtrl'
         })
         .otherwise({ 
           redirectTo: '/' 
@@ -19,7 +19,19 @@ myApp.controller('PoolCtrl', ['$scope', function($scope) {
       username: '王小明',
       title: '想學精實創業',
       description: '想聽聽長者們的創業經歷',
-      vote: 10
+      vote: 99
+    },
+    {
+      username: '李小美',
+      title: '想學古箏',
+      description: '找不到古箏老師',
+      vote: 80
+    },
+    {
+      username: '張小方',
+      title: '想做饅頭包子',
+      description: '希望學到正統山東包子技術',
+      vote: 66
     }
   ]
 }])

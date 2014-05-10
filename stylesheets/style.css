@@ -453,10 +453,11 @@ body {
   /* Style adjustments for print go here */ }
 /* line 1, ../sass/partials/_home.scss */
 h1.title {
-  color: #fff;
-  text-align: center; }
+  color: #000;
+  text-align: center;
+  text-shadow: 2px 2px 0px white; }
 
-/* line 6, ../sass/partials/_home.scss */
+/* line 7, ../sass/partials/_home.scss */
 #search-frame {
   width: 49.15254%;
   float: left;
@@ -464,14 +465,14 @@ h1.title {
   display: inline;
   margin-right: -100%;
   margin-left: 25.42373%; }
-  /* line 9, ../sass/partials/_home.scss */
+  /* line 10, ../sass/partials/_home.scss */
   #search-frame form {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding-right: 80px;
     position: relative; }
-  /* line 14, ../sass/partials/_home.scss */
+  /* line 15, ../sass/partials/_home.scss */
   #search-frame #search-submit {
     position: absolute;
     top: 0;
@@ -479,12 +480,12 @@ h1.title {
     height: 50px;
     width: 50px; }
 
-/* line 23, ../sass/partials/_home.scss */
+/* line 24, ../sass/partials/_home.scss */
 #input-search {
   width: 100%;
   height: 50px; }
 
-/* line 28, ../sass/partials/_home.scss */
+/* line 29, ../sass/partials/_home.scss */
 #home-bg {
   padding-top: 50px;
   width: 100%;
@@ -492,12 +493,12 @@ h1.title {
   background: url(../img/home_bg.jpg), rgba(0, 0, 0, 0.5);
   background-size: cover; }
 
-/* line 37, ../sass/partials/_home.scss */
+/* line 38, ../sass/partials/_home.scss */
 #feature-active ul, #feature-active li {
   list-style-type: none;
   padding: 0;
   margin: 0; }
-/* line 42, ../sass/partials/_home.scss */
+/* line 43, ../sass/partials/_home.scss */
 #feature-active .lession {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -511,39 +512,39 @@ h1.title {
   color: #f1f1f1;
   margin-top: 15px; }
   @media (min-width: 30em) {
-    /* line 42, ../sass/partials/_home.scss */
+    /* line 43, ../sass/partials/_home.scss */
     #feature-active .lession {
       width: 49.15254%;
       float: left;
       margin-right: 1.69492%; }
-      /* line 48, ../sass/partials/_home.scss */
+      /* line 49, ../sass/partials/_home.scss */
       #feature-active .lession:nth-child(2n) {
         width: 49.15254%;
         float: right;
         margin-right: 0; } }
   @media (min-width: 48em) {
-    /* line 42, ../sass/partials/_home.scss */
+    /* line 43, ../sass/partials/_home.scss */
     #feature-active .lession {
       width: 23.72881%;
       float: left;
       margin-right: 1.69492%; }
-      /* line 54, ../sass/partials/_home.scss */
+      /* line 55, ../sass/partials/_home.scss */
       #feature-active .lession:nth-child(2n) {
         width: 23.72881%;
         float: left;
         margin-right: 1.69492%; }
-      /* line 57, ../sass/partials/_home.scss */
+      /* line 58, ../sass/partials/_home.scss */
       #feature-active .lession:nth-child(4n) {
         width: 23.72881%;
         float: right;
         margin-right: 0; } }
-/* line 65, ../sass/partials/_home.scss */
+/* line 66, ../sass/partials/_home.scss */
 #feature-active .cover {
   width: 100%;
   padding-top: 100%;
   background: #ccc; }
 
-/* line 71, ../sass/partials/_home.scss */
+/* line 72, ../sass/partials/_home.scss */
 #more-lession {
   width: 100%;
   float: left;
@@ -552,3 +553,87 @@ h1.title {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px; }
+
+/* line 79, ../sass/partials/_home.scss */
+#form-info {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-right: -100%;
+  margin-left: 25.42373%;
+  overflow: hidden; }
+  /* line 83, ../sass/partials/_home.scss */
+  #form-info input {
+    width: 100%; }
+    /* line 85, ../sass/partials/_home.scss */
+    #form-info input.btn {
+      margin-top: 10px; }
+
+/* line 91, ../sass/partials/_home.scss */
+#pool-list {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-top: 200px; }
+  /* line 94, ../sass/partials/_home.scss */
+  #pool-list textarea {
+    width: 100%; }
+  /* line 97, ../sass/partials/_home.scss */
+  #pool-list input {
+    height: 40px; }
+  /* line 100, ../sass/partials/_home.scss */
+  #pool-list ul, #pool-list li {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  /* line 105, ../sass/partials/_home.scss */
+  #pool-list .list {
+    margin-top: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 50px;
+    background: url(../img/bg.jpg);
+    color: #000;
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    position: relative; }
+    /* line 113, ../sass/partials/_home.scss */
+    #pool-list .list:nth-child(2n) {
+      width: 49.15254%;
+      float: right;
+      margin-right: 0;
+      *margin-left: -1em;
+      display: inline; }
+    @media (min-width: 30em) {
+      /* line 105, ../sass/partials/_home.scss */
+      #pool-list .list {
+        width: 23.72881%;
+        float: left;
+        margin-right: 1.69492%; }
+        /* line 118, ../sass/partials/_home.scss */
+        #pool-list .list:nth-child(4n) {
+          width: 23.72881%;
+          float: right;
+          margin-right: 0; }
+        /* line 121, ../sass/partials/_home.scss */
+        #pool-list .list:nth-child(2n) {
+          width: 23.72881%;
+          float: left;
+          margin-right: 1.69492%; } }
+    /* line 126, ../sass/partials/_home.scss */
+    #pool-list .list:after {
+      content: '';
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      margin-left: -10px;
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+      background: #ccc; }
