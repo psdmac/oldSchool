@@ -537,8 +537,18 @@ h1.title {
         width: 23.72881%;
         float: right;
         margin-right: 0; } }
-/* line 67, ../sass/partials/_home.scss */
+/* line 65, ../sass/partials/_home.scss */
 #feature-active .cover {
   width: 100%;
   padding-top: 100%;
   background: #ccc; }
+
+/* line 71, ../sass/partials/_home.scss */
+#more-lession {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }

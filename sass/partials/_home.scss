@@ -58,8 +58,6 @@ h1.title {
         @include span-columns(3 omega);
       }
     }
-
-
     background: #333;
     color: #f1f1f1;
     margin-top: 15px;
@@ -69,4 +67,10 @@ h1.title {
     padding-top: 100%;
     background: #ccc;
   }
+}
+#more-lession {
+  @include span-columns(12);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

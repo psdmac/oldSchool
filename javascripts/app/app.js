@@ -12,27 +12,38 @@ myApp.config(['$routeProvider', function ($routeProvider) {
 myApp.controller('MainCtrl', ['$scope', function($scope){
   $scope.lessions = [
     {
-      title: '台語學習',
+      img: '4.jpg',
+      title: '人生經驗分享',
       date: '2014-05-10',
       location: '台北',
       address: 'XXXXXXXXXXX',
       limit: 30
     },
     {
-      title: '中國近代史',
+      img: '5.jpg',
+      title: '創業諮詢',
       date: '2014-05-10',
       location: '台北',
       address: 'XXXXXXXXXXX',
       limit: 30
     },
     {
+      img: '2.jpg',
       title: '書法之美',
       date: '2014-05-10',
       location: '台北',
       address: 'XXXXXXXXXXX',
       limit: 30
     },{
+      img: '1.jpg',
       title: '蔥油餅製作',
+      date: '2014-05-10',
+      location: '台北',
+      address: 'XXXXXXXXXXX',
+      limit: 30
+    },{
+      img: '3.jpg',
+      title: '棋藝教室',
       date: '2014-05-10',
       location: '台北',
       address: 'XXXXXXXXXXX',
