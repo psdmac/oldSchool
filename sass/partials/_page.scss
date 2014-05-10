@@ -1,0 +1,48 @@
+
+//-----------------------------------------------
+// The following html5-boilerplate styles should
+// probably be customized for each site
+//-----------------------------------------------
+body, select, input, textarea {
+  color: $font-color;
+  // Set your base font here, to apply evenly
+  // font-family: Georgia, serif;
+}
+
+//-----------------------------------
+// Add your own custom styles below
+//-----------------------------------
+
+.main-container {
+  // height: 100%;
+  // width: 100%;
+  @include container;
+  // @include susy-grid-background;
+}
+
+html { height: 100% }
+body { 
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+  background: #ccc;
+
+}
+#map_canvas { height: 100% }
+
+
+.navbar {
+  background: #f1f1f1;
+  margin-bottom: 0;
+  .navbar-toggle {
+    background: #4295A4;
+    .icon-bar {
+      background: #f1f1f1;
+    }
+  }
+}
+
+
+#main {}
+
+footer {}

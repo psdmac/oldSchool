@@ -1,0 +1,27 @@
+<div id="home-bg">
+  <div class="main-container">
+    <h1 class="title">學習長者的智慧，智慧傳承</h1>
+    <div id="search-frame">
+      <form ng-submit="submitSearch()">
+        <input id="input-search" type="text" ng-model="searchContent" placeholder="鍵入你想學習的關鍵字" />
+        <button id="search-submit" class="btn btn-primary" type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="main-container">
+  <div id="feature-active">
+    <ul>
+      <li ng-repeat="lession in lessions" class="lession">
+        <ul>
+          <li class="title">課程：{{lession.title}}</li>
+          <li class="date">時間：{{lession.date}}</li>
+          <li class="location">地點：{{lession.location}}</li>
+          <li class="limit">人數限制：{{lession.limit}}</li> 
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
