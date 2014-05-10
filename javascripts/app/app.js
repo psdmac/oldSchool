@@ -4,9 +4,24 @@ myApp.config(['$routeProvider', function ($routeProvider) {
   $routeProvider.when('/', {
           templateUrl: 'views/home.html',
           controller:  'MainCtrl',
-        }).otherwise({ 
+        }).when('/pool', {
+          templateUrl: 'views/pool.html',
+          controller: 'MainCtrl'
+        })
+        .otherwise({ 
           redirectTo: '/' 
         });
+}])
+
+myApp.controller('PoolCtrl', ['$scope', function($scope) {
+  $scope.lists = [
+    {
+      username: '王小明',
+      title: '想學精實創業',
+      description: '想聽聽長者們的創業經歷',
+      vote: 10
+    }
+  ]
 }])
 
 myApp.controller('MainCtrl', ['$scope', function($scope){
