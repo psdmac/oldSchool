@@ -42,12 +42,31 @@ h1.title {
   .lession {
     @include box-sizing(border-box);
     padding: 10px;
-    @include span-columns(6);
-    &:nth-child(2n) {
-      @include span-columns(6 omega);
+    @include span-columns(12);
+    @include at-breakpoint($small) {
+      @include span-columns(6);
+      &:nth-child(2n) {
+        @include span-columns(6 omega);
+      }
     }
+    @include at-breakpoint($medium) {
+      @include span-columns(3);
+      &:nth-child(2n) {
+        @include span-columns(3);
+      } 
+      &:nth-child(4n) {
+        @include span-columns(3 omega);
+      }
+    }
+
+
     background: #333;
     color: #f1f1f1;
     margin-top: 15px;
+  }
+  .cover {
+    width: 100%;
+    padding-top: 100%;
+    background: #ccc;
   }
 }

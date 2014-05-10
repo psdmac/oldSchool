@@ -503,17 +503,42 @@ h1.title {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px;
-  width: 49.15254%;
+  width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
   background: #333;
   color: #f1f1f1;
   margin-top: 15px; }
-  /* line 46, ../sass/partials/_home.scss */
-  #feature-active .lession:nth-child(2n) {
-    width: 49.15254%;
-    float: right;
-    margin-right: 0;
-    *margin-left: -1em;
-    display: inline; }
+  @media (min-width: 30em) {
+    /* line 42, ../sass/partials/_home.scss */
+    #feature-active .lession {
+      width: 49.15254%;
+      float: left;
+      margin-right: 1.69492%; }
+      /* line 48, ../sass/partials/_home.scss */
+      #feature-active .lession:nth-child(2n) {
+        width: 49.15254%;
+        float: right;
+        margin-right: 0; } }
+  @media (min-width: 48em) {
+    /* line 42, ../sass/partials/_home.scss */
+    #feature-active .lession {
+      width: 23.72881%;
+      float: left;
+      margin-right: 1.69492%; }
+      /* line 54, ../sass/partials/_home.scss */
+      #feature-active .lession:nth-child(2n) {
+        width: 23.72881%;
+        float: left;
+        margin-right: 1.69492%; }
+      /* line 57, ../sass/partials/_home.scss */
+      #feature-active .lession:nth-child(4n) {
+        width: 23.72881%;
+        float: right;
+        margin-right: 0; } }
+/* line 67, ../sass/partials/_home.scss */
+#feature-active .cover {
+  width: 100%;
+  padding-top: 100%;
+  background: #ccc; }
