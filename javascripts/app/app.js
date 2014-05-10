@@ -63,6 +63,41 @@ myApp.controller('MainCtrl', ['$scope', function($scope){
       location: '台北',
       address: 'XXXXXXXXXXX',
       limit: 30
+    },{
+      img: '1.png',
+      title: '戲劇教室',
+      date: '2014-05-10',
+      location: '台北',
+      address: 'XXXXXXXXXXX',
+      limit: 30
+    },{
+      img: '2.png',
+      title: '園藝教室',
+      date: '2014-05-10',
+      location: '台北',
+      address: 'XXXXXXXXXXX',
+      limit: 30
+    },{
+      img: '4.png',
+      title: '中國話教室',
+      date: '2014-05-10',
+      location: '台北',
+      address: 'XXXXXXXXXXX',
+      limit: 30
+    },{
+      img: '5.png',
+      title: '國畫之美',
+      date: '2014-05-10',
+      location: '台北',
+      address: 'XXXXXXXXXXX',
+      limit: 30
+    },{
+      img: '8.png',
+      title: '閱歷人生',
+      date: '2014-05-10',
+      location: '台北',
+      address: 'XXXXXXXXXXX',
+      limit: 30
     }
   ]
   // console.log('loading Map')
