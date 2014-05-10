@@ -494,9 +494,15 @@ h1.title {
 
 /* line 37, ../sass/partials/_home.scss */
 #feature-active ul, #feature-active li {
-  list-style-type: none; }
-/* line 40, ../sass/partials/_home.scss */
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+/* line 42, ../sass/partials/_home.scss */
 #feature-active .lession {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
   width: 49.15254%;
   float: left;
   margin-right: 1.69492%;
@@ -504,7 +510,7 @@ h1.title {
   background: #333;
   color: #f1f1f1;
   margin-top: 15px; }
-  /* line 42, ../sass/partials/_home.scss */
+  /* line 46, ../sass/partials/_home.scss */
   #feature-active .lession:nth-child(2n) {
     width: 49.15254%;
     float: right;
